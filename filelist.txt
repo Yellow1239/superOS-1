@@ -1,0 +1,16 @@
+.:
+filelist.txt
+i386
+superos.menu
+superos.png
+x86_64
+
+./i386:
+initrd.lz
+superosmain.menu
+vmlinuz
+
+./x86_64:
+initrd.lz
+superosmain.menu
+vmlinuz

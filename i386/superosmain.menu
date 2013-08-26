@@ -1,0 +1,8 @@
+LABEL SUPEROS32
+MENU LABEL ^Super OS Live - i386
+KERNEL er/plugins/superos/i386/vmlinuz
+INITRD er/plugins/superos/i386/initrd.lz
+APPEND vga=normal boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/superos/i386/ ramdisk_size=200000 nolock
+TEXT HELP
+                 Super OS Live x32.
+ENDTEXT

@@ -1,0 +1,14 @@
+MENU BEGIN SUPEROSLIVE
+MENU LABEL ^Super OS 11.04
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/superos/superos.png
+
+MENU INCLUDE er/plugins/superos/i386/superosmain.menu
+MENU INCLUDE er/plugins/superos/x86_64/superosmain.menu
+  
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END
