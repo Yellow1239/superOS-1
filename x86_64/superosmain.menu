@@ -1,8 +1,0 @@
-LABEL SUPEROS64
-MENU LABEL ^Super OS Live - x64
-KERNEL er/plugins/superos/x86_64/vmlinuz
-INITRD er/plugins/superos/x86_64/initrd.lz
-APPEND vga=normal boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/superos/x86_64/ ramdisk_size=200000 nolock
-TEXT HELP
-                 Super OS Live x64.
-ENDTEXT
