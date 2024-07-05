@@ -1,0 +1,5 @@
+{
+    "name": "superos--v",
+    "main": "electron-main.js",
+    "version": "1.1.5"
+}
